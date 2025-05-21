@@ -6,69 +6,67 @@
     <title>World Cómic's</title>
     <link rel="stylesheet" href="../estilo/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="./webs/terror.html">Terror</a></li>
-                <li><a href="./webs/ciencia-ficcion.html">Ciencia Ficción</a></li>
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./webs/historico.html">Histórico</a></li>
-                <li><a href="./webs/contacto.html">Contacto</a></li>
+                <li><a href="terror.html">Terror</a></li>
+                <li><a href="ciencia-ficcion.html">Ciencia Ficción</a></li>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="historico.html">Histórico</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main id="contacto">  
         
-        <h1>CONTACTO</h1>
+        <h1 class="animate__animated animate__fadeInDown">CONTACTO</h1>
         
-        <label>Nombre y Apellido: </label><input />        
+        <label class="animate__animated animate__fadeInLeft">Nombre y Apellido: </label><input class="animate__animated animate__fadeInRight"/>
         
-        <label>Fecha de Nacimiento: </label><input type="date" />
+        <label class="animate__animated animate__fadeInLeft">Fecha de Nacimiento: </label><input type="date" class="animate__animated animate__fadeInRight"/>
         
-        <label for="">Hombre</label><input type="radio" />
-
-        <label for="">Mujer</label><input type="radio">
-
-        <label>GMAIL:</label><input type="gmail" /><button type="button">Enviar</button></div>
+        <label class="animate__animated animate__fadeInLeft" for="">Hombre</label><input type="radio" class="animate__animated animate__fadeInRight"/>
+        <label class="animate__animated animate__fadeInLeft" for="">Mujer</label><input type="radio" class="animate__animated animate__fadeInRight"/>
         
-        <label for="pais">País:</label>
-        <select name="pais" id="pais">
+        <label class="animate__animated animate__fadeInLeft">GMAIL:</label>
+        <input type="gmail" class="animate__animated animate__fadeInRight"/>
+        <button type="button" class="animate__animated animate__tada">Enviar</button>
+        
+        <label class="animate__animated animate__fadeInLeft" for="pais">País:</label>
+        <select name="pais" id="pais" class="animate__animated animate__fadeInRight">
             <option value="Argentina"></option>
             <option value="Brasil"></option>    
-         </select> 
-            <!-- <option value="Chile"></option>
-            <option value="Paraguay"></option>
-            <option value="Colombia"></option>
-            <option value="Perú"></option>
-            <option value="Bolivia"></option>
-            <option value="Ecuador"></option>
-            <option value="Venezuela"></option>
-            <option value="Uruguay"></option>--> 
+        </select> 
          
-        <h2>Servicios</h2>
+        <h2 class="animate__animated animate__zoomIn">Servicios</h2>
         
         <article>
-          <h3 class="animate__animated animate__slideOutLeft">Desarrollo Web</h3>
-          <p class="parrafo1">descripción</p>
-          <button>ver más</button>
+          <h3 class="animate__animated animate__slideInLeft">Desarrollo Web</h3>
+          <p class="parrafo1 animate__animated animate__fadeInUp">descripción</p>
+          <button class="animate__animated animate__heartBeat">ver más</button>
         </article>
         
-        <p class="parrafo">cualquier consulta no dudes en escribirnos.</p> 
-        <p class="parrafo">También si notas irregularidad/error en nuestra página, </p>
-        <p class="parrafo">siempre viene bien la ayuda de nuestros cibernautas.</p>
+        <p class="parrafo animate__animated animate__fadeInUp">cualquier consulta no dudes en escribirnos.</p> 
+        <p class="parrafo animate__animated animate__fadeInUp">También si notas irregularidad/error en nuestra página, </p>
+        <p class="parrafo animate__animated animate__fadeInUp">siempre viene bien la ayuda de nuestros cibernautas.</p>
         
-        <label for="nombre">Nombre:</label><input type="text" id="nombre" name="nombre" required><br><br>
+        <label class="animate__animated animate__fadeInLeft" for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required class="animate__animated animate__fadeInRight"><br><br>
         
-        <label for="email">Correo Electrónico:</label><input type="email" id="email" name="email" required><br><br> 
+        <label class="animate__animated animate__fadeInLeft" for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required class="animate__animated animate__fadeInRight"><br><br> 
         
-        <label for="mensaje">Mensaje:</label><br><textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br><button type="submit">Enviar</button>
+        <label class="animate__animated animate__fadeInLeft" for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" required class="animate__animated animate__fadeInRight"></textarea><br><br>
+        <button type="submit" class="animate__animated animate__tada">Enviar</button>
     </main>    
     <footer> 
         &copy; 2025 Comics Web, derechos reservados por JM_29
     </footer>  
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
    </script>  

@@ -1,0 +1,140 @@
+#pagina-secundaria{
+    margin: 0;
+    padding: 0;
+    height: 300vh;
+    box-sizing: border-box;
+    background-image: url(/contenido/MarvelYDc.jpg);
+    }
+    
+    #pagina-secundaria h1{
+    padding: 32px;
+    margin-bottom: 28px;
+    font-size: 62px;
+    font-weight: 700;
+    color: blue;
+    text-align: center;
+    text-shadow: 2px 4px 3px rgb(0, 0, 0);
+    font-family: 'Bebas Neue';
+    font-style: oblique;
+    }
+    
+    #pagina-secundaria article{
+    font-style: oblique;
+    margin: 12px;
+    color: violet;
+    font-family: "Bangers", system-ui; 
+    text-shadow: 0px 7px 11px rgba(0, 209, 52, 0.932);
+    font-size: 23.5px;
+    }
+    
+    #ciencia-ficción div h2{
+        font-family: fantasy;
+        font-size: 30px;
+        font-family: "Orbitron", sans-serif;
+        color: rgb(219, 9, 9);
+        text-shadow: 2px 4px 3px rgb(0, 0, 0);
+    }
+    
+    #ciencia-ficción div h3{
+        font-family: fantasy;
+        font-size: 30px;
+        font-family: "Orbitron", sans-serif;
+        color: rgb(219, 9, 9);
+        text-shadow: 2px 4px 3px rgb(0, 0, 0);
+    
+    }
+    #ciencia-ficción div h4{
+        font-family: fantasy;
+        font-size: 30px;
+        font-family: "Orbitron", sans-serif;
+        color: rgb(219, 9, 9);
+        text-shadow: 2px 4px 3px rgb(0, 0, 0);
+    }
+    
+    #ciencia-ficción div h5{
+        font-family: fantasy;
+        font-size: 30px;
+        font-family: "Orbitron", sans-serif;
+        color: rgb(219, 9, 9);
+        text-shadow: 2px 4px 3px rgb(0, 0, 0);
+    }
+    
+    #ciencia-ficción div h6{
+        font-family: fantasy;
+        font-size: 30px;
+        font-family: "Orbitron", sans-serif;
+        color: rgb(219, 9, 9);
+        text-shadow: 2px 4px 3px rgb(0, 0, 0);
+    }
+    
+    #ciencia-ficción{
+        display: grid;    /*   largo    y    ancho           */
+        grid-template: repeat(3, 29%) / 400px repeat(4, 355px);
+        grid-template-areas: 
+        "item3 item8 item8 item1 item6"
+        "item2 item4 item7 item7 item6"
+        "item2 item5 item5 item5 item5";
+        justify-content: center;
+        align-content: center;
+        height: 150vh;
+        gap: 1.1rem;
+    }
+    
+    #ciencia-ficción div{   
+    border-radius: 6px; 
+    font-family: "Bangers", system-ui; 
+    }
+    
+    .item-1{
+        background-color: red;
+        grid-area: item1;
+        text-align: center;
+        font-size: 21px;
+    }
+    
+    .item-2{
+        background-color: blue;
+        grid-area: item2;
+        text-align: center;
+        font-size: 25px;
+        padding: 2.5px;
+    }
+    
+    .item-3 {
+       background-color: blue;
+       grid-area: item3;
+       text-align: center;
+    
+    }
+    
+    .item-4 {    
+    grid-area: item4;
+    }
+    
+    .item-5 {
+    background-color: blue;    
+    grid-area: item5;
+    font-size: 28px;
+    padding: 5px;
+    }
+    
+    .item-6 {
+        background-color: red;
+        grid-area: item6;
+        font-size: 20px;
+        padding: 4px;
+    }
+    
+    .item-7 {
+    background-color: red;    
+    grid-area: item7;
+    padding: 3px;
+    font-size: 19.5px;
+    }
+    
+    .item-8 {
+        background-color: blue;
+        grid-area: item8;
+        font-size: 25px;
+        text-align: center;
+    }

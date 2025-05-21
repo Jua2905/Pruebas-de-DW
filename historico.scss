@@ -1,0 +1,43 @@
+#historico{
+    background-image: url(../contenido/papel\ envejecido.avif);        
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Rochester", cursive;
+    float: left;
+    }
+    
+#historico h1{
+    font-family: "Great Vibes", cursive; 
+    font-size: 100px;
+    font-weight: 1000;
+    text-align: center;
+    margin-bottom: 22px;   
+    padding: 38px;
+}
+    
+#historico article{
+    font-family: "Rochester";
+    font-style: italic;
+    text-align: left;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 43px;
+    margin: 22.4px;
+}
+    
+#historico ol{
+    padding: 23px;    
+    font-size: 28px;
+    padding: 12px;
+    margin: 35px;
+}
+
+#historico li{
+    font-family: "Great Vibes";
+    font-size: 58px;
+    color: #0f0f0f;
+}
+ 
+#historico h1.animate__flash {
+  animation-duration: 0.5s;
+}

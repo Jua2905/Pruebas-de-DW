@@ -1,0 +1,68 @@
+#contacto {
+    background-image: url(../contenido/contacto.webp);  
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px;
+    font-family: "Orbitron", sans-serif;
+    
+    }
+    
+    #contacto h1 { 
+    color: goldenrod;
+    font-size: 110px;
+    font-weight: 600;
+    padding: 15px;
+    margin-bottom: 110px;
+    text-align: center;
+    text-shadow: 3px 4px 2px #f0ff17;
+    }
+        
+    #contacto label{
+    color: white;
+    font-optical-sizing: auto;
+    font-weight: 450;   
+    }
+        
+    #contacto h2 {
+    margin: 100px;
+    color: gold;
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 86px;
+    text-shadow: 3px 4px 2px #f0ff17;
+    }
+        
+    #contacto article {
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    float: center; 
+    padding: 1%; 
+    width: 50%;
+    background-color: goldenrod; 
+    border-radius: 8px;
+    box-shadow: 1px 44px 53px 0px red;
+    -webkit-box-shadow: 1px 44px 53px 0px rgba(255, 0, 0, 0.9);
+    -moz-box-shadow: 1px 44px 53px 0px rgba(0,0,0,0.9);
+    margin-bottom: 100px;
+    } 
+    
+    #contacto h3{
+    color: black;
+    margin-bottom: 50px;
+    font-weight: 1000;
+    font-size: x-large;
+    }
+    
+    #contacto .parrafo1{
+    margin-bottom: 18px; 
+    font-weight: 486;   
+    color: #1f1e1e;
+    font-family: "Orbitron", sans-serif;
+    }
+    
+    #contacto .parrafo{
+    color: white;
+    margin-bottom: 15px;  
+    font-family: "Orbitron", sans-serif;
+    }

@@ -1,0 +1,84 @@
+#pagina-principal{
+    background-color: antiquewhite;
+    color: brown;
+    font-family: 'Bebas Neue'; 
+    font-style: normal;
+    }
+    
+    #pagina-principal h1{
+    margin: 30px;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-weight: 800;
+    font-size: 65px;
+    color: black;
+    }
+    
+    #pagina-principal article{
+    text-align: left;
+    font-weight: 550;
+    font-size: 32px;
+    padding: 9px;
+    }
+    
+    #inicio{
+    display: grid;
+    grid-template: repeat(3, 29%) / 400px repeat(4, 325px);
+    grid-template-areas: 
+    "texto1 texto3 texto3 texto3 texto2"
+    "texto1 texto4 texto4 texto4 texto2" 
+    "texto1 texto4 texto4 texto4 texto2"
+    ;
+    justify-content: space-evenly;
+    align-content:  space-between;
+    align-items: start;
+    height: 200vh;
+    gap: 1.5rem;
+    }
+    
+    #inicio div{
+    background-color: #C99471;   
+    border-radius: 6px; 
+    border: 2px black solid;    
+    padding: 1.5rem 2rem;
+    }
+    
+    #inicio div h2, #inicio div h3, #inicio div h4, #inicio div h5{
+    font-family: 'Bebas Neue';    
+    font-weight: 800;
+    font-size: 65px;
+    color: black;
+    font-style: normal; 
+    }
+    
+    #inicio div p, ol li{
+        font-size: 18px;
+        color: azure;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    #inicio div ul li{
+        font-size: 18px;
+        color: azure;
+        font-family: 'Courier New', Courier, monospace;   
+    }
+    
+    .texto-1{
+    grid-area: texto1;
+    text-align: right;
+    }
+     
+    .texto-2 {
+    grid-area: texto2;
+    text-align: left;
+    }
+    
+    .texto-3 {
+    grid-area: texto3;
+    text-align: center;
+    }
+    
+    .texto-4 {
+    grid-area: texto4;
+    text-align: center;
+    }

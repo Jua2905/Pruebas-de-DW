@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Boldonse&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@1,460&family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Nosifer&family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rochester&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+
+
+
+body {
+    padding: 6px 0;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px; 
+    font-family: "Boldonse", system-ui; 
+}
+
+nav ul li a {
+    color: rgb(146, 146, 148);
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer {
+    background: #1f1e1e;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    text-align: right;
+    margin-top: auto;
+}
+/*Desde aquí empieza el estilo de la página INICIO*/
+
+#pagina-principal{
+background-color: antiquewhite;
+color: brown;
+font-family: 'Bebas Neue'; 
+font-style: normal;
+}
+
+#pagina-principal h1{
+margin: 30px;
+margin-bottom: 10px;
+padding: 8px;
+font-weight: 800;
+font-size: 65px;
+color: black;
+}
+
+#pagina-principal article{
+text-align: left;
+font-weight: 550;
+font-size: 32px;
+padding: 9px;
+}
+
+#inicio{
+display: grid;
+grid-template: repeat(3, 29%) / 400px repeat(4, 325px);
+grid-template-areas: 
+"texto1 texto3 texto3 texto3 texto2"
+"texto1 texto4 texto4 texto4 texto2" 
+"texto1 texto4 texto4 texto4 texto2"
+;
+justify-content: space-evenly;
+align-content:  space-between;
+align-items: start;
+height: 200vh;
+gap: 1.5rem;
+}
+
+#inicio div{
+background-color: #C99471;   
+border-radius: 6px; 
+border: 2px black solid;    
+padding: 1.5rem 2rem;
+}
+
+#inicio div h2, #inicio div h3, #inicio div h4, #inicio div h5{
+font-family: 'Bebas Neue';    
+font-weight: 800;
+font-size: 65px;
+color: black;
+font-style: normal; 
+}
+
+#inicio div p, ol li{
+    font-size: 18px;
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#inicio div ul li{
+    font-size: 18px;
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;   
+}
+
+.texto-1{
+grid-area: texto1;
+text-align: right;
+}
+ 
+.texto-2 {
+grid-area: texto2;
+text-align: left;
+}
+
+.texto-3 {
+grid-area: texto3;
+text-align: center;
+}
+
+.texto-4 {
+grid-area: texto4;
+text-align: center;
+}
+/*Hasta aquí llego la página INICIO*/
+
+
+/*comienzo de ciencia ficción*/
+#pagina-secundaria{
+margin: 0;
+padding: 0;
+height: 300vh;
+box-sizing: border-box;
+background-image: url(/contenido/MarvelYDc.jpg);
+}
+
+#pagina-secundaria h1{
+padding: 32px;
+margin-bottom: 28px;
+font-size: 62px;
+font-weight: 700;
+color: blue;
+text-align: center;
+text-shadow: 2px 4px 3px rgb(0, 0, 0);
+font-family: 'Bebas Neue';
+font-style: oblique;
+}
+
+#pagina-secundaria h1.animate__bounce {
+  opacity: 0.7;
+  animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+#pagina-secundaria article{
+font-style: oblique;
+margin: 12px;
+color: violet;
+font-family: "Bangers", system-ui; 
+text-shadow: 0px 7px 11px rgba(0, 209, 52, 0.932);
+font-size: 23.5px;
+}
+
+#ciencia-ficción div h2{
+    font-family: fantasy;
+    font-size: 30px;
+    font-family: "Orbitron", sans-serif;
+    color: rgb(219, 9, 9);
+    text-shadow: 2px 4px 3px rgb(0, 0, 0);
+}
+
+#ciencia-ficción div h3{
+    font-family: fantasy;
+    font-size: 30px;
+    font-family: "Orbitron", sans-serif;
+    color: rgb(219, 9, 9);
+    text-shadow: 2px 4px 3px rgb(0, 0, 0);
+
+}
+#ciencia-ficción div h4{
+    font-family: fantasy;
+    font-size: 30px;
+    font-family: "Orbitron", sans-serif;
+    color: rgb(219, 9, 9);
+    text-shadow: 2px 4px 3px rgb(0, 0, 0);
+}
+
+#ciencia-ficción div h5{
+    font-family: fantasy;
+    font-size: 30px;
+    font-family: "Orbitron", sans-serif;
+    color: rgb(219, 9, 9);
+    text-shadow: 2px 4px 3px rgb(0, 0, 0);
+}
+
+#ciencia-ficción div h6{
+    font-family: fantasy;
+    font-size: 30px;
+    font-family: "Orbitron", sans-serif;
+    color: rgb(219, 9, 9);
+    text-shadow: 2px 4px 3px rgb(0, 0, 0);
+}
+
+#ciencia-ficción{
+    display: grid;    /*   largo    y    ancho           */
+    grid-template: repeat(3, 29%) / 400px repeat(4, 355px);
+    grid-template-areas: 
+    "item3 item8 item8 item1 item6"
+    "item2 item4 item7 item7 item6"
+    "item2 item5 item5 item5 item5";
+    justify-content: center;
+    align-content: center;
+    height: 150vh;
+    gap: 1.1rem;
+}
+
+#ciencia-ficción div{   
+border-radius: 6px; 
+font-family: "Bangers", system-ui; 
+}
+
+.item-1{
+    background-color: red;
+    grid-area: item1;
+    text-align: center;
+    font-size: 21px;
+}
+
+.item-2{
+    background-color: blue;
+    grid-area: item2;
+    text-align: center;
+    font-size: 25px;
+    padding: 2.5px;
+}
+
+.item-3 {
+   background-color: blue;
+   grid-area: item3;
+   text-align: center;
+
+}
+
+.item-4 {    
+grid-area: item4;
+}
+
+.item-5 {
+background-color: blue;    
+grid-area: item5;
+font-size: 28px;
+padding: 5px;
+}
+
+.item-6 {
+    background-color: red;
+    grid-area: item6;
+    font-size: 20px;
+    padding: 4px;
+}
+
+.item-7 {
+background-color: red;    
+grid-area: item7;
+padding: 3px;
+font-size: 19.5px;
+}
+
+.item-8 {
+    background-color: blue;
+    grid-area: item8;
+    font-size: 25px;
+    text-align: center;
+}
+
+/*final de Ciencia Ficción*/
+
+
+/*comienzo de terror*/     
+#pagina-tercera {
+background-image: url(/contenido/WoodenCreepy.avif);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#pagina-tercera h1{
+    color: whitesmoke;
+    text-align: center;
+    font-family: "Nosifer", sans-serif;
+    font-weight: 400; 
+    text-shadow: 3px 4px 2px crimson;
+    padding: 12px;
+    margin-bottom: 25px;
+    font-size: 70px;    
+}
+
+#pagina-tercera article{
+    font-family: "Rubik Wet Paint", system-ui;  
+    text-align: center;
+    padding: 3%;
+    margin-bottom: 55px;
+    font-weight: 800;
+    font-size: 50px;
+    font-family: 'Bebas Neue';
+    color: white;
+    text-shadow: 3px 4px 2px rgb(0, 0, 0);
+}
+
+#terror{
+    display: grid;    /*   largo    y    ancho           */
+    grid-template: repeat(3, 29%) / 400px repeat(4, 580px);
+    grid-template-areas: 
+    "items3 items3 items1 items2 items4"
+    "items3 items3 items1 items2 items4"
+    "items3 items3 items5 items5 items5";
+    justify-content: center;
+    align-content: center;
+    height: 130.1vh;
+    gap: 1.2rem;
+}
+
+#terror div h2,h3,h4,h5{
+    color: white;
+    font-family: 'Bebas Neue';
+    font-weight: 800;
+    text-shadow: 3px 4px 2px rgb(0, 0, 0);
+    font-size: 35px;
+}
+
+#terror div{
+    margin: 5px;
+    color: crimson;
+    font-family: "Creepster", system-ui;
+}
+
+.items-1{
+    grid-area: items1;
+    font-size: 28px;
+}
+
+.items-2{
+    grid-area: items2;
+    font-size: 28px;
+}
+
+.items-3{
+    grid-area: items3;
+    text-align: center;
+    font-size: 28px;
+
+}
+
+.items-4{
+    grid-area: items4;
+    font-size: 28px;
+}
+
+.items-5{
+    grid-area: items5;
+    font-size: 28px;
+}
+
+/*final de terror*/
+
+/*Comienzo de Histórico*/
+#historico{
+    background-image: url(../contenido/papel\ envejecido.avif);        
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Rochester", cursive;
+    float: left;
+    }
+    
+#historico h1{
+    font-family: "Great Vibes", cursive; 
+    font-size: 100px;
+    font-weight: 1000;
+    text-align: center;
+    margin-bottom: 22px;   
+    padding: 38px;
+}
+    
+#historico article{
+    font-family: "Rochester";
+    font-style: italic;
+    text-align: left;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 43px;
+    margin: 22.4px;
+}
+    
+#historico ol{
+    padding: 23px;    
+    font-size: 28px;
+    padding: 12px;
+    margin: 35px;
+}
+
+#historico li{
+    font-family: "Great Vibes";
+    font-size: 58px;
+    color: #0f0f0f;
+}
+
+#historico h1.animate__flash {
+  animation-duration: 0.5s;
+}
+    
+/*fin de histórico*/
+
+
+/*comienzo de contacto*/
+#contacto {
+background-image: url(../contenido/contacto.webp);  
+background-size: cover;
+background-repeat: no-repeat;
+padding: 5px;
+font-family: "Orbitron", sans-serif;
+
+}
+
+#contacto h1 { 
+color: goldenrod;
+font-size: 110px;
+font-weight: 600;
+padding: 15px;
+margin-bottom: 110px;
+text-align: center;
+text-shadow: 3px 4px 2px #f0ff17;
+}
+    
+#contacto label{
+color: white;
+font-optical-sizing: auto;
+font-weight: 450;   
+}
+    
+#contacto h2 {
+margin: 100px;
+color: gold;
+text-align: center;
+margin-bottom: 100px;
+font-size: 86px;
+text-shadow: 3px 4px 2px #f0ff17;
+}
+    
+#contacto article {
+width: 1100px;
+margin: 0 auto;
+text-align: center;
+float: center; 
+padding: 1%; 
+width: 50%;
+background-color: goldenrod; 
+border-radius: 8px;
+box-shadow: 1px 44px 53px 0px red;
+-webkit-box-shadow: 1px 44px 53px 0px rgba(255, 0, 0, 0.9);
+-moz-box-shadow: 1px 44px 53px 0px rgba(0,0,0,0.9);
+margin-bottom: 100px;
+} 
+
+#contacto h3{
+color: black;
+margin-bottom: 50px;
+font-weight: 1000;
+font-size: x-large;
+}
+
+#contacto .parrafo1{
+margin-bottom: 18px; 
+font-weight: 486;   
+color: #1f1e1e;
+font-family: "Orbitron", sans-serif;
+}
+
+#contacto .parrafo{
+color: white;
+margin-bottom: 15px;  
+font-family: "Orbitron", sans-serif;
+}
+/*final de contacto*/
+

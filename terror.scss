@@ -1,0 +1,85 @@
+$font-family: "Creepster", system-ui; 
+$color: crimson;
+$color2: white;
+
+#pagina-tercera {
+    background-image: url(/contenido/WoodenCreepy.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    
+#pagina-tercera h1{
+    color: $color2;
+    text-align: center;
+    font-family: "Nosifer", sans-serif;
+    font-weight: 400; 
+    text-shadow: 3px 4px 2px $color;
+    padding: 12px;
+    margin-bottom: 25px;
+    font-size: 70px;    
+}
+    
+#pagina-tercera article{
+    font-family: "Rubik Wet Paint", system-ui;  
+    text-align: center;
+    padding: 3%;
+    margin-bottom: 55px;
+    font-weight: 800;
+    font-size: 50px;
+    font-family: 'Bebas Neue';
+    
+    text-shadow: 3px 4px 2px rgb(0, 0, 0);
+}
+    
+#terror{
+    display: grid;    /*   largo    y    ancho           */
+    grid-template: repeat(3, 29%) / 400px repeat(4, 580px);
+    grid-template-areas: 
+    "items3 items3 items1 items2 items4"
+    "items3 items3 items1 items2 items4"
+    "items3 items3 items5 items5 items5";
+    justify-content: center;
+    align-content: center;
+    height: 130.1vh;
+    gap: 1.2rem;
+}
+    
+#terror div h2,h3,h4,h5{
+    color: $color2;
+    font-family: 'Bebas Neue';
+    font-weight: 800;
+    text-shadow: 3px 4px 2px rgb(0, 0, 0);
+    font-size: 35px;
+}
+    
+#terror div{
+    margin: 5px;
+    
+    font-family: "Creepster", system-ui;
+}
+    
+.items-1{
+    grid-area: items1;
+    font-size: 28px;
+}
+    
+.items-2{
+    grid-area: items2;
+    font-size: 28px;
+}
+    
+.items-3{
+    grid-area: items3;
+    text-align: center;
+    font-size: 28px;
+}
+    
+.items-4{
+    grid-area: items4;
+    font-size: 28px;
+}
+    
+.items-5{
+    grid-area: items5;
+    font-size: 28px;
+}
